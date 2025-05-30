@@ -450,7 +450,7 @@ function createUnityInstance(t, n, d) {
         })
     }, O), w.cachedFetch = (y = w.UnityCache, g = w.fetchWithProgress, U = w.readBodyWithProgress, function(o, i) {
         var e, t, a = y.getInstance(),
-            s = k("string" == typeof o ? o : o.url),
+            //s = k("string" == typeof o ? o : o.url),
             d = {
                 enabled: (e = s, (!(t = i) || !t.method || "GET" === t.method) && ((!t || -1 != ["must-revalidate", "immutable"].indexOf(t.control)) && !!e.match("^https?://")))
             };
